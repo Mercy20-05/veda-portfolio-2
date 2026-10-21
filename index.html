@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Portfolio of Alex Morgan - Full Stack Web Developer" />
+  <title>Alex Morgan | Full Stack Developer</title>
+  
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">Alex<span>.dev</span></a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link btn-nav">Contact</a></li>
+        </ul>
+        <button class="nav-close" id="nav-close" aria-label="Close navigation menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home / Hero Section -->
+    <section class="home section" id="home">
+      <div class="home-container container">
+        <div class="home-content">
+          <span class="home-subtitle">Hello, I'm</span>
+          <h1 class="home-title">Alex Morgan</h1>
+          <h2 class="home-profession">Full Stack Web Developer</h2>
+          <p class="home-description">
+            I craft clean, responsive, and user-friendly digital experiences with modern web technologies. Passionate about solving complex problems with elegant code.
+          </p>
+          <div class="home-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+          <div class="home-social">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="home-image">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Alex Morgan Portrait" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know who I am and what drives my work</p>
+        </div>
+
+        <div class="about-container">
+          <div class="about-data">
+            <p>
+              I am a passionate software engineer with a strong foundation in both front-end and back-end development. I enjoy turning complex challenges into simple, beautiful, and intuitive interfaces.
+            </p>
+            <p>
+              When I'm not writing code, you can find me contributing to open-source software, exploring system architectures, or writing technical blog posts.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                  <h4>3+ Years</h4>
+                  <p>Development Experience</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-diagram-project"></i>
+                <div>
+                  <h4>25+ Projects</h4>
+                  <p>Completed & Shipped</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-users"></i>
+                <div>
+                  <h4>15+ Clients</h4>
+                  <p>Worldwide Satisfaction</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">My core stack and tools</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5 skill-icon"></i>
+            <h3>HTML5</h3>
+            <p>Semantic markup, Accessibility (a11y), SEO standards</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt skill-icon"></i>
+            <h3>CSS3</h3>
+            <p>Flexbox, CSS Grid, Responsive Design, Animations</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-js skill-icon"></i>
+            <h3>JavaScript</h3>
+            <p>ES6+, DOM Manipulation, Async/Await, Web APIs</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-react skill-icon"></i>
+            <h3>React</h3>
+            <p>Hooks, State Management, SPA Development</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-node-js skill-icon"></i>
+            <h3>Node.js</h3>
+            <p>REST APIs, Express, Backend Services</p>
+          </div>
+          <div class="skill-card">
+            <i class="fa-brands fa-git-alt skill-icon"></i>
+            <h3>Git & GitHub</h3>
+            <p>Version control, Branching workflows, CI/CD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Experience & Education</h2>
+          <p class="section-subtitle">My academic and professional journey</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 - Present</div>
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <h4>Nexus Digital Solutions</h4>
+              <p>Built responsive, accessible user interfaces using React and modern CSS. Reduced website load times by 35% through asset optimization and performance auditing.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 - 2023</div>
+            <div class="timeline-content">
+              <h3>Junior Web Developer</h3>
+              <h4>Creative Pulse Agency</h4>
+              <p>Developed custom client websites and landing pages using HTML, CSS, JavaScript, and CMS integrations. Collaborated closely with UI/UX designers.</p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2018 - 2022</div>
+            <div class="timeline-content">
+              <h3>B.S. in Computer Science</h3>
+              <h4>State University of Science & Tech</h4>
+              <p>Graduated with honors. Key coursework included Data Structures & Algorithms, Database Systems, Web Engineering, and Software Design Patterns.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of the real-world applications I've created</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Analytics Dashboard Project" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS Grid</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>Cloud Analytics Dashboard</h3>
+              <p>A responsive analytical dashboard providing metric visualizations, interactive charts, and data filtering capabilities.</p>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="project-link" aria-label="Source Code"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Interface Project" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>Responsive Design</span>
+                <span>REST API</span>
+              </div>
+              <h3>Modern Storefront E-Commerce</h3>
+              <p>A full-featured shopping catalog interface with product filtering, cart drawer persistence, and instant search.</p>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="project-link" aria-label="Source Code"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Task Management Web App" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>LocalStorage</span>
+              </div>
+              <h3>Kanban Task Tracker</h3>
+              <p>A productivity application featuring drag-and-drop task boards, category tags, and browser local storage persistence.</p>
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                <a href="#" class="project-link" aria-label="Source Code"><i class="fa-brands fa-github"></i> Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Have a project or opportunity? Send me a message!</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Let's talk about your next project</h3>
+            <p>I am available for full-time roles, freelance projects, and open-source collaborations.</p>
+            
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <span class="label">Email</span>
+                  <a href="mailto:alex.morgan@example.com">alex.morgan@example.com</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <span class="label">Location</span>
+                  <span>San Francisco, CA (Open to Remote)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+              <span class="error-msg" id="name-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              <span class="error-msg" id="email-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required />
+              <span class="error-msg" id="subject-error"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              <span class="error-msg" id="message-error"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Alex Morgan. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Back to Top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
